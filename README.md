@@ -33,9 +33,9 @@
 ```text
 Dress website/
 ├── categories/            # Category landing pages (Casual, Bridal, Abaya, Bags, Shoes, Kids)
-├── Css/
+├── css/
 │   └── style.css          # Complete design system (dark luxury + glassmorphism)
-├── Js/
+├── js/
 │   ├── products.js        # Central product data (6 categories × 12 products)
 │   └── script.js          # Core logic: animations, modals, cart, wishlist, reveals
 ├── About.html             # Brand story, stats & values
