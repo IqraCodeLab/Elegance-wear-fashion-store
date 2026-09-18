@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Wear | Women's Fashion E-commerce</title>
+    <meta name="description" content="Elegance Wear — premium girls &amp; women's fashion. Discover elegant dresses, tops, co-ord sets, ethnic wear, party wear, bags and shoes.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announce-bar">Complimentary Shipping on Orders Above Rs. 5,000 <span class="sep">&#10022;</span> Use Code <b>ELEGANCE20</b> for 20% Off</div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-top">
+            <div class="container nav-top-inner">
+                <a href="index.html" class="logo">Elegance<span class="thin">&nbsp;Wear</span></a>
+
+                <div class="nav-search">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" placeholder="Search dresses, tops, co-ords...">
+                </div>
+
+                <div class="nav-icons">
+                    <button type="button" class="search-toggle icon-btn" aria-label="Toggle search">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                    <a href="#" class="wishlist-icon icon-btn" aria-label="Wishlist">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                        <span class="badge" id="wishlist-count">0</span>
+                    </a>
+                    <button type="button" class="account-btn icon-btn" aria-label="Account">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                    <a href="cart.html" class="cart-icon icon-btn" aria-label="Cart">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="badge" id="cart-count">0</span>
+                    </a>
+                    <div class="hamburger" aria-label="Menu">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-links-row"> 
+            <div class="container">
+                <button type="button" class="drawer-close" aria-label="Close menu">&#10005;</button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html#new-arrivals">New Arrivals</a></li>
+                    <li><a href="index.html#categories">Shop</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories</a>
+                        <div class="dropdown-menu">
+                            <a href="categories/casual.html">Casual Wear</a>
+                            <a href="categories/bridal.html">Bridal &amp; Party</a>
+                            <a href="categories/abaya.html">Modest Abaya</a>
+                            <a href="categories/bags.html">Handbags</a>
+                            <a href="categories/shoes.html">Shoes &amp; Heels</a>
+                            <a href="categories/Kids%20Collection.html">Girls Collection</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Collections</a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#categories">The New Edit</a>
+                            <a href="index.html#summer">Summer Edit</a>
+                            <a href="categories/bridal.html">Party Edit</a>
+                            <a href="index.html#instagram">The Lookbook</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#deals" class="sale-link">Sale</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobile-search" id="mobile-search">
+            <div class="mobile-search-inner">
+                <input type="text" placeholder="Search Elegance Wear...">
+                <button type="button" class="ms-close" aria-label="Close search">&#10005;</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <section class="hero">
+        <div class="hero-carousel" id="hero-carousel">
+
+            <!-- Slide 1 — New Collection -->
+            <div class="hero-slide active">
+                <div class="container hero-slide-inner">
+                    <span class="hero-ghost" aria-hidden="true">Elegance</span>
+                    <div class="hero-copy">
+                        <span class="hero-badge"><span class="dot"></span> New Collection &middot; 2026</span>
+                        <span class="hero-kicker">The New Season Edit</span>
+
+                        <h1 class="hero-title">
+                            <span class="split-mask"><span class="split-word">Elevate</span></span>
+                            <span class="split-mask"><span class="split-word gold"><span class="split-char">Y</span><span class="split-char">o</span><span class="split-char">u</span><span class="split-char">r</span></span></span>
+                            <span class="split-mask"><span class="split-word">Everyday</span></span>
+                            <span class="split-mask"><span class="split-word">Style</span></span>
+                        </h1>
+
+                        <p class="hero-sub">Modern silhouettes. Timeless elegance. Crafted for the woman who defines her own style.</p>
+
+                        <div class="hero-cta">
+                            <a href="#categories" class="btn btn-gold">Explore The Edit</a>
+                            <a href="#new-arrivals" class="btn btn-outline">View Collection</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="hero-blob"></div>
+                        <div class="hero-blob hero-blob--2"></div>
+                        <div class="hero-img-wrap">
+                            <img src="Images/hero/hero-1.jpg" alt="New Collection — elegant women's fashion">
+                            <div class="hero-mini-card">
+                                <span class="mc-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                </span>
+                                <div><strong>Elevated Style</strong><small>Curated for the modern woman</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 — Summer Collection -->
+            <div class="hero-slide hero-slide--simple">
+                <div class="container hero-slide-inner">
+                    <span class="hero-ghost" aria-hidden="true">Summer</span>
+                    <div class="hero-copy">
+                        <span class="hero-badge"><span class="dot"></span> Summer Collection &middot; 2026</span>
+                        <span class="hero-kicker">The Summer Edit</span>
+
+                        <h1 class="hero-title">
+                            <span class="gold">Effortless Looks</span>
+                            <span>Beautifully Made</span>
+                        </h1>
+
+                        <p class="hero-sub">Breezy silhouettes in premium lawn &amp; chiffon — made for sunlit days and warm evenings.</p>
+
+                        <div class="hero-cta">
+                            <a href="categories/casual.html" class="btn btn-gold">Shop Summer</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="hero-blob"></div>
+                        <div class="hero-blob hero-blob--2"></div>
+                        <div class="hero-img-wrap">
+                            <img src="Images/hero/hero-2.jpg" alt="Summer Collection — effortless women's fashion">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 — Party Edit -->
+            <div class="hero-slide hero-slide--simple">
+                <div class="container hero-slide-inner">
+                    <span class="hero-ghost" aria-hidden="true">Soir&eacute;e</span>
+                    <div class="hero-copy">
+                        <span class="hero-badge"><span class="dot"></span> Party Edit &middot; 2026</span>
+                        <span class="hero-kicker">The Party Edit</span>
+
+                        <h1 class="hero-title">
+                            <span>Dress To Be</span>
+                            <span class="gold">Remembered</span>
+                        </h1>
+
+                        <p class="hero-sub">Couture finishes, intricate embroidery and regal silhouettes — for every occasion worth dressing up for.</p>
+
+                        <div class="hero-cta">
+                            <a href="categories/bridal.html" class="btn btn-gold">Shop Party Wear</a>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="hero-blob"></div>
+                        <div class="hero-blob hero-blob--2"></div>
+                        <div class="hero-img-wrap">
+                            <img src="Images/hero/hero-3.jpg" alt="Party Edit — elegant evening fashion">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <div class="hero-dots" id="hero-dots">
+            <button class="hero-dot active" aria-label="Go to slide 1"></button>
+            <button class="hero-dot" aria-label="Go to slide 2"></button>
+            <button class="hero-dot" aria-label="Go to slide 3"></button>
+        </div>
+        <button class="hero-arrow hero-arrow--prev" aria-label="Previous slide">&#8249;</button>
+        <button class="hero-arrow hero-arrow--next" aria-label="Next slide">&#8250;</button>
+    </section>
+
+    <!-- Promotional Benefit Cards -->
+    <section class="service-strip">
+        <div class="container">
+            <div class="service-grid">
+                <div class="service-card reveal">
+                    <div class="s-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    </div>
+                    <div>
+                        <h4>Free Shipping</h4>
+                        <p>On orders above Rs. 5,000</p>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-delay="1">
+                    <div class="s-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+                    </div>
+                    <div>
+                        <h4>Easy Returns</h4>
+                        <p>7-day hassle-free returns</p>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-delay="2">
+                    <div class="s-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+                    </div>
+                    <div>
+                        <h4>Secure Payment</h4>
+                        <p>100% secure checkout</p>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-delay="3">
+                    <div class="s-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <div>
+                        <h4>New Arrivals</h4>
+                        <p>Fresh styles every week</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Category -->
+    <section id="categories" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-kicker">Curated For Her</span>
+                <h2 class="section-title">Shop By <span class="accent">Category</span></h2>
+                <p class="section-sub">Discover styles made for every moment — from everyday elegance to unforgettable evenings.</p>
+            </div>
+
+            <div class="cat-grid">
+                <a href="categories/casual.html" class="cat-card reveal">
+                    <img loading="lazy" src="Images/categories/dresses.jpg" alt="Dresses — women's fashion">
+                    <span class="cat-index">01</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Ready To Wear</span>
+                        <span class="cat-name">Dresses</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/casual.html" class="cat-card reveal" data-delay="1">
+                    <img loading="lazy" src="Images/categories/tops.jpg" alt="Tops — women's fashion">
+                    <span class="cat-index">02</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Everyday Layers</span>
+                        <span class="cat-name">Tops</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/casual.html" class="cat-card reveal" data-delay="2">
+                    <img loading="lazy" src="Images/categories/coords.jpg" alt="Co-ord sets — women's fashion">
+                    <span class="cat-index">03</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Two-Piece Edit</span>
+                        <span class="cat-name">Co-Ord Sets</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/abaya.html" class="cat-card reveal" data-delay="3">
+                    <img loading="lazy" src="Images/categories/ethnic.jpg" alt="Ethnic wear — women's fashion">
+                    <span class="cat-index">04</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Modest Luxury</span>
+                        <span class="cat-name">Ethnic Wear</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/bridal.html" class="cat-card reveal">
+                    <img loading="lazy" src="Images/categories/party.jpg" alt="Party wear — elegant evening fashion">
+                    <span class="cat-index">05</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Evening Edit</span>
+                        <span class="cat-name">Party Wear</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/casual.html" class="cat-card reveal" data-delay="1">
+                    <img loading="lazy" src="Images/categories/jeans.jpg" alt="Denim &amp; bottoms — women's fashion">
+                    <span class="cat-index">06</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Daily Denim</span>
+                        <span class="cat-name">Denim &amp; Bottoms</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/bags.html" class="cat-card reveal" data-delay="2">
+                    <img loading="lazy" src="Images/categories/accessories.jpg" alt="Bags — premium women's handbags">
+                    <span class="cat-index">07</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Carry It All</span>
+                        <span class="cat-name">Bags</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+                <a href="categories/shoes.html" class="cat-card reveal" data-delay="3">
+                    <img loading="lazy" src="Images/categories/shoes.jpg" alt="Shoes — women's heels and flats">
+                    <span class="cat-index">08</span>
+                    <div class="cat-body">
+                        <span class="cat-kicker">Step Out</span>
+                        <span class="cat-name">Shoes &amp; Heels</span>
+                        <span class="cat-cta">Shop Now &rarr;</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Now -->
+    <section id="most-loved" class="section section--alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-kicker">Trending Now</span>
+                <h2 class="section-title">Most Loved <span class="accent">This Week</span></h2>
+                <p class="section-sub">The pieces our community can't stop wearing — refreshed weekly with the latest from the atelier.</p>
+            </div>
+
+            <div class="product-grid" id="home-products">
+                <!-- Rendered dynamically via JS -->
+            </div>
+
+            <div class="section-head reveal" style="margin-top: 50px; margin-bottom: 0;">
+                <a href="categories/casual.html" class="btn btn-outline">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section id="new-arrivals" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-kicker">Just Landed</span>
+                <h2 class="section-title">New <span class="accent">Arrivals</span></h2>
+                <p class="section-sub">Fresh drops added every week — be the first to wear the new edit.</p>
+            </div>
+
+            <div class="na-wrap reveal">
+                <div class="na-track" id="new-arrivals-track">
+                    <!-- Rendered dynamically via JS -->
+                </div>
+                <div class="carousel-nav">
+                    <button type="button" class="na-btn na-btn--prev" aria-label="Previous arrivals">&larr;</button>
+                    <button type="button" class="na-btn na-btn--next" aria-label="Next arrivals">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Fashion Banner -->
+    <section id="summer" class="editorial">
+        <div class="editorial-bg" style="background-image: url('Images/banners/summer.jpg');"></div>
+        <div class="editorial-overlay"></div>
+        <span class="editorial-ghost" aria-hidden="true">Summer</span>
+        <div class="container editorial-inner">
+            <div class="editorial-copy reveal">
+                <span class="editorial-eyebrow"><span class="rule"></span> The Summer Edit &middot; 2026</span>
+                <h2>Effortless. Elegant. <span class="accent">You.</span></h2>
+                <p>Breezy lawn, fluid chiffon and hand-embroidered silhouettes designed for sunlit days, warm evenings and everything in between.</p>
+                <div class="editorial-feats">
+                    <div class="editorial-feat"><b>Pure Lawn</b><span>Breathable fabrics that drape beautifully</span></div>
+                    <div class="editorial-feat"><b>Hand Finish</b><span>Couture embroidery &amp; detailing</span></div>
+                    <div class="editorial-feat"><b>Free Shipping</b><span>On all orders above Rs. 5,000</span></div>
+                </div>
+                <div class="editorial-cta">
+                    <a href="categories/casual.html" class="btn btn-gold">Shop The Summer Edit</a>
+                    <a href="#deals" class="btn btn-outline">View Offers</a>
+                </div>
+                <span class="editorial-promo">Use code <b>ELEGANCE20</b> for 20% off</span>
+            </div>
+            <aside class="editorial-aside reveal" data-delay="2">
+                <div class="ea-stamp">New<br>Season</div>
+                <div class="ea-quote">
+                    <span class="ea-quote-mark">&ldquo;</span>
+                    <p>Wear the sun like it was made for you &mdash; draped in lawn, chiffon and quiet luxury.</p>
+                </div>
+                <ul class="ea-meta">
+                    <li><b>70+</b><span>Summer styles</span></li>
+                    <li><b>Rs.3k</b><span>Styles from</span></li>
+                    <li><b>24h</b><span>Fast dispatch</span></li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Limited Time Offer -->
+    <section id="deals" class="section">
+        <div class="container">
+            <div class="deal-banner reveal">
+                <p class="deal-kicker">Limited Time Offer</p>
+                <h2>20% Off The Party &amp; Bridal Edit</h2>
+                <p class="deal-sub">Elegant gowns &middot; couture finishes &middot; only this week</p>
+
+                <div class="promo-code">
+                    <span class="copy-hint">Use code</span>
+                    <span class="code" id="promo-code">ELEGANCE20</span>
+                    <span class="copy-hint">at checkout</span>
+                </div>
+
+                <div class="countdown">
+                    <div class="timer-box">
+                        <span id="hours">24</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="timer-box">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="timer-box">
+                        <span id="seconds">00</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+
+                <a href="categories/bridal.html" class="btn btn-gold">Claim Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-Width Fashion Video -->
+    <section class="video-section">
+        <video autoplay muted loop playsinline preload="auto" poster="Images/fashion-video-poster.jpg" aria-hidden="true">
+            <source src="Images/fashion-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content reveal">
+            <span class="video-kicker">The Art Of Feminine Style</span>
+            <h2>Designed For Every <span class="accent">Beautiful Moment</span></h2>
+            <p>Elegant movement &middot; timeless silhouettes &middot; fashion as an art form</p>
+            <a href="categories/casual.html" class="btn btn-gold">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="section section--alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-kicker">Kind Words</span>
+                <h2 class="section-title">What Our <span class="accent">Customers Say</span></h2>
+                <p class="section-sub">Real reviews from real Elegance Women.</p>
+            </div>
+
+            <div class="review-grid">
+                <div class="review-card reveal">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-quote">&ldquo;The floral midi dress is absolutely stunning — the fit and the fabric are pure premium. I get compliments every single time I wear it.&rdquo;</p>
+                    <div class="review-author">
+                        <img loading="lazy" src="Images/instagram/ig-1.jpg" alt="Ayesha Khan">
+                        <div>
+                            <div class="review-name">Ayesha Khan</div>
+                            <div class="review-role">Verified Buyer &middot; Dresses</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal" data-delay="1">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-quote">&ldquo;Ordered the co-ord set for Eid and it was beyond perfect. The embroidery is so elegant and the delivery was faster than expected.&rdquo;</p>
+                    <div class="review-author">
+                        <img loading="lazy" src="Images/instagram/ig-3.jpg" alt="Fatima Noor">
+                        <div>
+                            <div class="review-name">Fatima Noor</div>
+                            <div class="review-role">Verified Buyer &middot; Co-Ord Sets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal" data-delay="2">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-quote">&ldquo;My party gown turned every head at the wedding. Elegance Wear truly understands feminine style — I&rsquo;m a customer for life.&rdquo;</p>
+                    <div class="review-author">
+                        <img loading="lazy" src="Images/instagram/ig-4.jpg" alt="Mahnoor Ali">
+                        <div>
+                            <div class="review-name">Mahnoor Ali</div>
+                            <div class="review-role">Verified Buyer &middot; Party Wear</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Gallery -->
+    <section id="instagram" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-kicker">Community</span>
+                <h2 class="section-title">Follow Us On <span class="accent">Instagram</span></h2>
+                <p class="section-sub">Tag <b>@elegancewear</b> with <b>#EleganceWear</b> to get featured.</p>
+            </div>
+
+            <div class="insta-profile reveal">
+                <span class="insta-avatar" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </span>
+                <div class="insta-profile-meta">
+                    <span class="insta-handle-name">@elegancewear</span>
+                    <span class="insta-stats">Daily style inspiration &middot; Join our community of 25K+</span>
+                </div>
+                <a href="#" target="_blank" rel="noopener" class="btn btn-gold">Follow Us</a>
+            </div>
+
+            </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section">
+        <div class="container">
+            <div class="newsletter reveal">
+                <span class="newsletter-kicker">Join The Inner Circle</span>
+                <h2>Get 10% Off Your <span class="accent">First Order</span></h2>
+                <p>Subscribe for new arrivals, exclusive offers and fashion updates — straight to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-gold">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-left"><img id="modal-img" src="" alt=""></div>
+            <div class="modal-right">
+                <h2 id="modal-name"></h2>
+                <div class="modal-desc" id="modal-desc"></div>
+                <div class="option-group"><span class="option-label">Colors</span>
+                    <div class="color-circles" id="modal-colors"></div>
+                </div>
+                <div class="option-group"><span class="option-label">Size</span>
+                    <div class="size-options">
+                        <button class="size-btn" onclick="selectSize('S', this)">S</button>
+                        <button class="size-btn active" onclick="selectSize('M', this)">M</button>
+                        <button class="size-btn" onclick="selectSize('L', this)">L</button>
+                    </div>
+                </div>
+                <div class="qty-selector">
+                    <button class="qty-btn" onclick="updateQty(-1)">-</button>
+                    <span id="modal-qty">1</span>
+                    <button class="qty-btn" onclick="updateQty(1)">+</button>
+                </div>
+                <span class="price" id="modal-final-price" style="font-size:2rem;display:block;margin-bottom:20px;"></span>
+                <button class="btn btn-gold" onclick="addToCartFromModal()" style="width:100%">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Elegance<span class="thin">&nbsp;Wear</span></a>
+                    <p class="footer-about">Premium girls &amp; women's fashion — elegant dresses, tops, co-ord sets, ethnic wear and more, curated for the modern woman.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="index.html#new-arrivals">New Arrivals</a></li>
+                        <li><a href="categories/casual.html">Dresses</a></li>
+                        <li><a href="categories/casual.html">Tops</a></li>
+                        <li><a href="categories/casual.html">Co-Ord Sets</a></li>
+                        <li><a href="categories/abaya.html">Ethnic Wear</a></li>
+                        <li><a href="categories/bridal.html">Party Wear</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.27 2.662 7.917 6.437 9.324-.078-.79-.148-1.996.03-2.856.16-.677 1.036-4.398 1.036-4.398s-.264-.528-.264-1.31c0-1.227.712-2.144 1.597-2.144.753 0 1.116.565 1.116 1.242 0 .757-.482 1.89-.73 2.94-.208.878.44 1.596 1.306 1.596 1.567 0 2.772-1.652 2.772-4.037 0-2.11-1.516-3.586-3.682-3.586-2.508 0-3.98 1.882-3.98 3.826 0 .758.292 1.57.656 2.01.072.088.082.164.06.254-.067.278-.216.882-.246.1-.03-.12-.083-.243-.105-.365-.246-1.144.225-2.22.656-2.22 1.606 0 2.955-1.444 2.955-4.225 0-3.14-2.258-5.35-5.32-5.35-3.63 0-5.757 2.72-5.757 5.533 0 1.096.42 2.272.946 2.91.104.126.12.236.088.368-.103.43-.332 1.354-.378 1.543-.06.244-.2.296-.462.176-1.722-.796-2.798-3.3-2.798-5.308 0-4.322 3.14-8.29 9.052-8.29 4.75 0 8.443 3.385 8.443 7.91 0 4.72-2.977 8.52-7.11 8.52-1.388 0-2.693-.72-3.14-1.577L8.9 19.332C8.385 21.082 7.31 23.23 6.64 24c1.1.34 2.27.53 3.48.53 5.523 0 10-4.477 10-10S15.523 2 10 2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="footer-about" style="max-width: 260px; margin-top: 18px;">Tag <b>@elegancewear</b> to get featured on our feed.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Elegance Wear. Designed &amp; Developed by Iqra Khan <span class="heart">&#10022;</span> All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            startCountdown();
+        });
+    </script>
+</body>
+
+</html>
